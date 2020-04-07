@@ -9,8 +9,8 @@ while True:  # <1>
     if raw_quantity.lower() == 'q':
         print("goodbye!")
         break  # <3>
-    if raw_quantity.isdigit():
-        quantity = int(raw_quantity)
-        print("sending {} ticket(s)".format(quantity))
+    # if raw_quantity.isdigit():
+    #     quantity = int(raw_quantity)
+    #     print("sending {} ticket(s)".format(quantity))
     else:
         print("Please enter a number")
